@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    margin: 0;
+}
+
+.header {
+    height: 20%;
+    background: rgba(228, 28, 28, 0.678);
+    padding: 10px;
+}
+
+.logo {
+    display: inline-block;
+    height: 100%;
+    width: 15%;
+    margin-right: 20px;
+}
+
+.header_title {
+    display: inline-block;
+    height: 100%;
+    width: 70%;
+    margin: 0;
+    vertical-align: top;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.main {
+    height: 70%;
+    background: rgb(248, 247, 247);
+}
+.nav, .aside {
+    vertical-align: top;
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    background: rgb(1, 231, 104);
+}
+
+.section {
+    display: inline-block;
+    height: 100%;
+    width: 60%;
+}
+
+.section_pic{
+    width: 50%;
+    height: 60%;
+    margin: 0 25%;
+}
+
+.text {
+    margin: 5px;
+    font-size: 17px;
+}
+
+.footer {
+    height: 10%;
+    background: rgba(228, 28, 28, 0.678);
+    padding: 5px;
+}
+
+.nav_list {
+    padding: 0;
+    margin: 5px;
+}
+
+.nav_item {
+    background-color: rgb(51, 173, 2);
+    list-style-type: none;
+    border: 2px solid black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.nav_link {
+    display: inline-block;
+    width: 100%;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.aside_pic {
+    width: 150px;
+    height: 200px;
+    margin: 5px 25% 0 25%;
+}
+
+.aside_gif {
+    width: 200px;
+    height: 200px;
+    margin: 5px 25% 0 25%;
+}
+
+.aside_text {
+    margin: 10px;
+    text-align: center;
+}
+
+.footer_text {
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer_link {
+    display: inline-block;
+    height: 100%;
+    margin-right: 20px;
+    font-size: 20px;
+    color: black;
+    padding-top: 10px;
+}
+
+
